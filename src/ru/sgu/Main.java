@@ -1,7 +1,11 @@
 package ru.sgu;
 
 public class Main {
-    public static void main(String[] args) {
+    void run() {
         System.out.println("Hellooooooo!!!");
+    }
+
+    public static void main(String[] args) {
+        new Main().run();
     }
 }
